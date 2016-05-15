@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "StackBook:toggle",
+    "ctrl-alt-a": "StackBook:query"
+  }
+}

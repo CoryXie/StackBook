@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle StackBook",
+        "command": "StackBook:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "StackBook",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "StackBook:toggle"
+          },
+          {
+            "label": "Query",
+            "command": "StackBook:query"
+          }
+          ]
+        }
+      ]
+    }
+  ]
+}
